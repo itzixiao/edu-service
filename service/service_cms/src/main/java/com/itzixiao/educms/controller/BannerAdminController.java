@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/educms/banneradmin")
-@CrossOrigin
 public class BannerAdminController {
 
     @Autowired
