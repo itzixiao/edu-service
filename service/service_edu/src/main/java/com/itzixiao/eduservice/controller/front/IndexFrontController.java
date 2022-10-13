@@ -7,7 +7,6 @@ import com.itzixiao.eduservice.entity.EduTeacher;
 import com.itzixiao.eduservice.service.EduCourseService;
 import com.itzixiao.eduservice.service.EduTeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,7 +15,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/eduservice/indexfront")
-@CrossOrigin
 public class IndexFrontController {
 
     @Autowired

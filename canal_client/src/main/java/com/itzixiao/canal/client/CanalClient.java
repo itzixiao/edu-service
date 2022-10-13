@@ -203,7 +203,9 @@ public class CanalClient {
     public void execute(String sql) {
         Connection con = null;
         try {
-            if (null == sql) return;
+            if (null == sql) {
+                return;
+            }
             con = dataSource.getConnection();
             QueryRunner qr = new QueryRunner();
             int row = qr.execute(con, sql);

@@ -23,7 +23,6 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/admin/acl/role")
-//@CrossOrigin
 public class RoleController {
 
     @Autowired

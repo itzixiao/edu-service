@@ -12,7 +12,6 @@
     <artifactId>service_ucenter</artifactId>
     <packaging>jar</packaging>
     <dependencies>
-
         <!--httpclient-->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
