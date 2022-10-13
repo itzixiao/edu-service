@@ -5,17 +5,17 @@
     <parent>
         <artifactId>service</artifactId>
         <groupId>com.itzixiao</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>service_acl</artifactId>
-
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>com.itzixiao</groupId>
             <artifactId>spring_security</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
